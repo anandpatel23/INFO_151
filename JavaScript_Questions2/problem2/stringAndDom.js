@@ -1,9 +1,11 @@
+// manipuating strings in the DOM
 function stringAndDom(){
 	var fullName = prompt("Enter your full Name separated by space");
 	var desc = prompt("Enter a description");
 	var integerFontSize = prompt("Enter an int for font size");
 	integerFontSize = integerFontSize + "px";
 
+	// separate first and last name
 	fullName = fullName.split(" ");
 	var firstName = fullName[0];
 	var lastName = fullName[1];
